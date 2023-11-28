@@ -11,3 +11,13 @@
     @apply font-montserrat text-white;
   }
 }
+
+@layer components {
+  .nav-link {
+    @apply mb-4 inline-block text-2xl font-bold uppercase xl:mb-0 xl:ml-8 xl:font-barlow xl:text-base xl:tracking-[0.1em];
+  }
+
+  [aria-expanded="false"] + ul {
+    @apply hidden xl:flex;
+  }
+}

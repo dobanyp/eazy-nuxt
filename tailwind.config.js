@@ -6,7 +6,7 @@ export default {
       colors: {
         "ea-gray": "hsl(0, 0%, 14%)",
         "ea-green": "hsl(108, 82%, 42%)",
-        "ea-green-light": "hsl(108, 83%, 69%",
+        "ea-green-light": "hsl(108, 83%, 69%)",
         "ea-error": "hsl(338, 100%, 50%)",
         "ea-orange": "hsl(25, 100%, 50%)",
         "ea-purple": "hsl(256, 100%, 59%)",
@@ -22,6 +22,7 @@ export default {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
+        barlow: ["Barlow", "sans-serif"],
       },
       fontSize: {
         dynamic: "calc(1.4em + 3vw)",

@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
+    "@nuxt/image",
     [
       "@nuxtjs/google-fonts",
       {
@@ -12,7 +13,9 @@ export default defineNuxtConfig({
             ital: [100, 200, 400],
           },
           "Josefin+Sans": true,
-          Barlow: true,
+          Barlow: {
+            wght: [700, 800],
+          },
         },
         display: "swap",
         prefetch: false,
