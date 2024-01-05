@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply bg-gradient-to-r from-ea-gradient-dark-start via-ea-gradient-dark-end to-ea-gradient-dark-start;
+    @apply bg-gradient-to-r from-black via-ea-gradient-dark-end to-black;
   }
 
   body {
@@ -19,5 +19,13 @@
 
   [aria-expanded="false"] + ul {
     @apply hidden xl:flex;
+  }
+
+  .gradient-headline {
+    @apply inline-block bg-gradient-to-r from-ea-gradient-light-start via-ea-gradient-light-end to-ea-gradient-light-start bg-clip-text text-3xl font-bold uppercase leading-tight tracking-[-0.5px] text-transparent md:text-8xl lg:text-9xl;
+  }
+
+  .ea-btn {
+    @apply inline-block cursor-pointer border border-solid border-white bg-transparent px-4 py-2.5 text-sm font-extrabold uppercase tracking-widest transition-all duration-100 ease-in-out hover:translate-x-1 hover:translate-y-1 hover:opacity-70 hover:shadow-btn md:max-w-[200px];
   }
 }
