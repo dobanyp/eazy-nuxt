@@ -1,3 +1,6 @@
+
 <template>
-  <div>Workshop archive</div>
+  <div>
+    <WorkshopForm />
+  </div>
 </template>

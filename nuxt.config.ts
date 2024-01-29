@@ -1,6 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  runtimeConfig: {
+    httpEndpoint: "https://eazydigital.test.hungarodo.hu/graphql/event_demo",
+    db: "db_hs23030915215507",
+    login: "graphql_demo",
+    accessToken: "graphql_demo",
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
