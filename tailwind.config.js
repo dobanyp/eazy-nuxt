@@ -27,6 +27,19 @@ export default {
       fontSize: {
         dynamic: "calc(1.4em + 3vw)",
       },
+      keyframes: {
+        fadein: {
+          "0%": {
+            opacity: 0,
+          },
+          "100%": {
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        fadein: "fadein 1s 1 ease-in-out forwards",
+      },
     },
   },
   plugins: [],

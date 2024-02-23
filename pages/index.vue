@@ -2,16 +2,10 @@
   <!-- Home -->
   <section class="relative py-12">
     <h1 class="gradient-headline mb-4 max-w-5xl">Eazy Digital Agency</h1>
-    <span
-      class="font-300 block max-w-3xl text-sm font-thin uppercase md:text-xl"
-      >ROI, AI, PPC, SEO, CRM... OMG stop the jargon!<br />We simply get you
-      more business online, full stop.</span
-    >
-    <img
-      src="~/assets/img/dino-line.svg"
-      class="right-0 mb-4 mt-8 lg:top-44 xl:absolute xl:mb-0 xl:mt-0"
-      alt=""
-    />
+    <span class="font-300 block max-w-3xl text-sm font-thin uppercase md:text-xl">ROI, AI, PPC, SEO, CRM... OMG stop the
+      jargon!<br />We simply get you
+      more business online, full stop.</span>
+    <img src="/img/dino-line.svg" class="right-0 mb-4 mt-8 lg:top-44 xl:absolute xl:mb-0 xl:mt-0" alt="" />
     <div class="flex max-w-xl flex-col gap-4 md:gap-8 xl:mt-40">
       <span class="text-2xl font-bold text-ea-green md:text-7xl">Hello!</span>
       <p class="text-sm font-thin lg:text-xl">
@@ -24,7 +18,7 @@
   <!-- Services -->
   <section>
     <!-- TODO: Create service box components -->
-    <div>Service box component</div>
+    <ServiceCard />
   </section>
   <!-- Animation -->
   <section>
